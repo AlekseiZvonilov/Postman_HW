@@ -11,7 +11,7 @@ EndPoint: `/get_method`
 request url params:   
 name: `Aleksei`  
 age: `33`   
-```  
+```json  
 [
     "Aleksei",
     "33"
@@ -25,7 +25,7 @@ request form data:
 name: `Aleksei`  
 age: `33`  
 salary: `800`  
-```
+```json
 {
     "age": "33",
     "family": {
@@ -53,7 +53,7 @@ request url params:
 name: `Aleksei`  
 age: `33`  
 weight: `77`  
-```
+```json
 {
     "age": 33,
     "daily_food": 0.924,
@@ -69,7 +69,7 @@ request url params:
  name: `Aleksei`  
  age: `33`  
  salary: `800`   
- ```
+ ```json
  {
     "person": {
         "u_age": 33,
@@ -95,7 +95,7 @@ request url params:
  name: `Aleksei`    
  age: `33`  
  salary: `800`   
- ``` 
+ ```json 
  {
     "age": "33",
     "family": {
@@ -133,7 +133,7 @@ request url params:
  name: `Aleksei`   
  age: `33`   
  salary: `800`   
- ``` 
+ ```json 
  {
     "age": 33,
     "name": "Aleksei",
@@ -152,7 +152,7 @@ request form data:
  name: `Aleksei`      
  age: `33`      
  salary: `800`      
- ```  
+ ```json  
  {
     "person": {
         "u_age": 33,
